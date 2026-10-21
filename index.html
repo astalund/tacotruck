@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TacoTruck</title>
+  <meta name="description" content="TacoTruck er en privat planlægger til opgaver, noter og kalender, som kører på vores egen server." />
+  <style>
+    :root { --bg: #f2f5f7; --panel: #ffffff; --ink: #1b2328; --ink-2: #55646d; --line: #dfe6ea; --accent: #3a8aa6; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #14191c; --panel: #1b2226; --ink: #e8eef1; --ink-2: #a7b4bb; --line: #2c373d; --accent: #7cc2db; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+    main { max-width: 680px; margin: 0 auto; padding: 48px 20px 64px; }
+    .card { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 28px; margin-top: 20px; }
+    h1 { font-size: 34px; margin: 0 0 6px; }
+    h2 { font-size: 19px; margin: 0 0 8px; }
+    p { margin: 0 0 12px; }
+    .lead { color: var(--ink-2); }
+    a { color: var(--accent); }
+    ul { margin: 0 0 12px; padding-left: 20px; }
+    footer { margin-top: 28px; font-size: 14px; color: var(--ink-2); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>TacoTruck</h1>
+    <p class="lead">En privat planlægger til opgaver, lister, noter og kalender.</p>
+
+    <section class="card">
+      <h2>Om TacoTruck</h2>
+      <p>TacoTruck er en lille, privat app, som kun bruges af en husstand. Den kører på vores egen server derhjemme og er ikke åben for andre. Man kan ikke oprette sig som bruger.</p>
+      <p>Hver bruger kan vælge selv at forbinde sin Google Kalender. Så vises ens begivenheder sammen med opgaverne, så dagen kan planlægges ét sted.</p>
+      <p><a href="privatliv.html">Privatlivspolitik</a></p>
+    </section>
+
+    <section class="card" lang="en">
+      <h2>About TacoTruck (English)</h2>
+      <p>TacoTruck is a small, private planner for tasks, lists, notes and calendar, used only by one household. It runs on our own server at home and is not open to the public. There is no public sign-up.</p>
+      <p>Each user can choose to connect their own Google Calendar, so their events are shown next to their tasks and the day can be planned in one place.</p>
+      <p><a href="privatliv.html">Privacy policy</a></p>
+    </section>
+
+    <footer>TacoTruck · privat planlægger · <a href="privatliv.html">Privatlivspolitik / Privacy policy</a></footer>
+  </main>
+</body>
+</html>
